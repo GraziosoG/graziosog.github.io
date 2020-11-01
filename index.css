@@ -1,0 +1,37 @@
+﻿h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e5250;
+}
+
+body {
+    background-color: #76b09b;
+    color: black;
+    font-family: 'Franklin Gothic';
+    font-size: 14px;
+}
+
+#nav, #sign {
+    text-align: center;
+    line-height: 2px;
+    padding: 4px;
+    clear: both;
+}
+
+#tb {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b1debd;
+}
+
+td, th {
+    text-align: center;
+    height: 24px;
+    color: #102b47;
+    padding: 6px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
