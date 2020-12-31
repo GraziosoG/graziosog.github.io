@@ -1,0 +1,50 @@
+﻿h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e5250;
+}
+
+body {
+    background-color: #f0a35b;
+    color: black;
+    font-family: 'Franklin Gothic';
+    font-size: 14px;
+}
+
+#content {
+    margin: auto;
+    width: 60%;
+}
+
+#explain {
+    margin: auto;
+    text-align: center;
+    border: 3px dotted grey;
+    padding: 4px;
+}
+
+#sign {
+    text-align: center;
+    line-height: 2px;
+    padding: 4px;
+    clear: both;
+}
+
+#back {
+    background-color: #f07048;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    float: left;
+}
+
+#back:hover {
+    background-color: #f4511e;
+}
