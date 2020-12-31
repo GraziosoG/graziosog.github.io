@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Music Theory Quiz 1</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Grace Chiu Music Theory Quiz" />
+    <meta name="author" content="Grace Chiu" />
+    <link href="music-quiz.css" rel="stylesheet">
+    <script src="music-quiz.js" defer></script>
+</head>
+
+<body>
+    <div id="top">
+        <p>
+            <b>
+                <span> Quiz 1 </span><br />
+                <span> Music Theory </span><br />
+                <span> October 24, 2020 </span>
+            </b>
+        </p>
+    </div>
+
+    <form>
+        <div id="tf">
+            <h3> True / False </h3>
+
+            <p><b>1.</b> A perfect fifth has five half steps.</p>
+            <input type="radio" id="q1t" name="q1" value="1">
+            <label for="q1t">a) True</label><br>
+            <input type="radio" id="q1f" name="q1" value="3">
+            <label for="q1f">b) False</label><br /><br />
+
+            <p><b>2.</b> Melodic minor raises both the 6th and the 7th by a half step in natural minor.</p>
+            <input type="radio" id="q2t" name="q2" value="1">
+            <label for="q2t">a) True</label><br>
+            <input type="radio" id="q2f" name="q2" value="3">
+            <label for="q2f">b) False</label><br /><br />
+        </div>
+
+        <div id="mc">
+            <h3> Multiple Choice </h3>
+
+            <p><b>3.</b> Which of these is NOT a good practice for composition considered in the Common Practice Period?</p>
+            <input type="checkbox" id="q3contrary" name="q3" value="1">
+            <label for="q3contrary"> a) Contrary motion</label><br />
+            <input type="checkbox" id="q3tendency" name="q3" value="2">
+            <label for="q3tendency"> b) Double tendency tones</label><br />
+            <input type="checkbox" id="q3crossed" name="q3" value="3">
+            <label for="q3crossed"> c) No crossed voices</label><br />
+            <input type="checkbox" id="q3root" name="q3" value="4">
+            <label for="q3root"> d) Double root of the chord</label><br /><br />
+
+            <p><b>4.</b> This second inversion chord has a leaping bass. </p>
+            <input type="checkbox" id="q4passing" name="q4" value="1">
+            <label for="q4passing"> a) Passing</label><br />
+            <input type="checkbox" id="q4pedal" name="q4" value="2">
+            <label for="q4pedal"> b) Pedal</label><br />
+            <input type="checkbox" id="q4arpeg" name="q4" value="3">
+            <label for="q4arpeg"> c) Arpeggiated</label><br />
+            <input type="checkbox" id="q4caden" name="q4" value="4">
+            <label for="q4caden"> d) Cadential</label><br /><br />
+        </div>
+
+        <div id="fb">
+            <h3> Fill in the Blank </h3>
+
+            <b>5)</b> _______ is a contrapuntal composition which employs a melody with one or more imitations.<br />
+            <input type="text" id="q5" name="q5" size="10" /><br /><br />
+
+            <b>6)</b> A musical scale or mode with five notes per octave instead of the normal seven is called a ________.<br />
+            <input type="text" id="q6" name="q6" size="10" /><br /><br />
+        </div>
+
+        <div id="actions">
+            <input type="button" value="Grade" id="submit" onclick="check()" />
+            <input type="reset" value="Clear" id="reset" />
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<title>Image Slideshow</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Grace Chiu Image Slideshow" />
+	<meta name="author" content="Grace Chiu" />
+	<link href="travel-slideshow.css" rel="stylesheet">
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="travel-slideshow.js" defer></script>
+</head>
+
+<body>
+	<div id="header">
+		<h2>Travel Show</h2>
+	</div>
+
+	<div id="div_img">
+		<form>
+			<div id="buttons">
+				<input id="button1" type="button" value="Start" onclick="startShow()" />
+				<input id="button2" type="button" value="End" onclick="endShow()" />
+			</div>
+
+			<img id="slide" src="agra_fort.jpg" alt="" height="400" />
+		</form>
+	</div>
+
+</body>
+
+</html>

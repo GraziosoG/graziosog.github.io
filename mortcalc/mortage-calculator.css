@@ -1,0 +1,50 @@
+body {
+    background-color: #d1f786;
+    color: black;
+    font-family: 'Franklin Gothic';
+    margin: 16pt;
+    font-size: 14px;
+}
+
+#header {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: darkslategrey;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 4em;
+    line-height: 24px;
+}
+
+a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+#right {
+    margin: 0;
+    padding: 4em;
+    line-height: 24px;
+}
+
+#notice {
+    clear: both;
+    padding-left: 4em;
+    line-height: 20px;
+}
+table tr td {
+    color: #455c17;
+}
+
+#submit, #reset {
+    margin-top: 2em;
+    background-color: #233302;
+    color: #b2f763;
+}

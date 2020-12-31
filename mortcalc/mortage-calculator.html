@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<title>Mortgage Calculator</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Grace Chiu Mortgage Calculator" />
+	<meta name="author" content="Grace Chiu" />
+	<link href="mortage-calculator.css" rel="stylesheet">
+	<script src="mortage-calculator.js" defer></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<h2>Mortgage Calculator</h2>
+		</div>
+
+		<div id="left">
+			<form>
+				<table id="input">
+					<tr>
+						<td><b>Principal Amount</b></td>
+						<td>
+							<label for="principal">
+								<input type="text" name="principal" id="principal" size="10" />
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Yearly Percentage Interest Rate</b></td>
+						<td>
+							<label for="rate">
+								<input type="text" name="rate" id="rate" size="10" />
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Loan Term in Months</b></td>
+						<td>
+							<label for="term">
+								<input type="text" name="term" id="term" size="10" />
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="button" value="Calculate" id="submit" onclick="calc()" />
+							<input type="reset" value="Clear" id="reset" onclick="clr()"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div id="right">
+			<table id="output">
+				<tr>
+					<td><b>Monthly Payments</b></td>
+					<td>
+						<input type="text" name="month" id="month" size="16" readonly="readonly" />
+					</td>
+				</tr>
+				<tr>
+					<td><b>Sum of All Payments</b></td>
+					<td>
+						<input type="text" name="sum" id="sum" size="16" readonly="readonly" />
+					</td>
+				</tr>
+				<tr>
+					<td><b>Total Interest Paid</b></td>
+					<td>
+						<input type="text" name="interest" id="interest" size="16" readonly="readonly" />
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="notice">
+			<p>Notice: </p>
+			<ul>
+				<li>If your yearly percentage interest rate is 5%, input 0.05 for the calculation to perform correctly.</li>
+				<li>Months will be rounded to the nearest integer if a fractional value is inputted.</li>
+			</ul>			
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+body {
+    background-color: #67addb;
+    color: black;
+    font-family: 'Franklin Gothic';
+    margin: 16pt;
+    font-size: 14px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #67addb;
+    margin-left: 425px;
+    margin-right: auto;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: #9cd3f7;
+    border: none;
+    font-size: 20px;
+}
+
+#header {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #014069;
+}
