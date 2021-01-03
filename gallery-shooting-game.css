@@ -14,6 +14,24 @@ body {
     font-size: 14px;
 }
 
+a:link {
+    color: yellow;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+img {
+    border: inset;
+    border-color: #80fff7;
+    border-width: medium;
+}
+
 #content {
     margin: auto;
     width: 60%;
@@ -24,13 +42,6 @@ body {
     text-align: center;
     border: 3px dotted grey;
     padding: 4px;
-}
-
-#sign {
-    text-align: center;
-    line-height: 2px;
-    padding: 4px;
-    clear: both;
 }
 
 #back {
@@ -49,6 +60,15 @@ body {
     background-color: rebeccapurple;
 }
 
-img {
-    border:dashed;
+
+#sign {
+    text-align: center;
+    line-height: 2px;
+    padding: 4px;
+    clear: both;
+}
+
+#signname {
+    color: #66d4ff;
+    text-decoration: none;
 }

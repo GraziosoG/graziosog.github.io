@@ -26,13 +26,6 @@ body {
     padding: 4px;
 }
 
-#sign {
-    text-align: center;
-    line-height: 2px;
-    padding: 4px;
-    clear: both;
-}
-
 #back {
     background-color: #f07048;
     border: none;
@@ -47,4 +40,16 @@ body {
 
 #back:hover {
     background-color: #f4511e;
+}
+
+#sign {
+    text-align: center;
+    line-height: 2px;
+    padding: 4px;
+    clear: both;
+}
+
+#signname {
+    color: #5b46b8;
+    text-decoration: none;
 }

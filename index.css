@@ -39,3 +39,20 @@ td, th {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+a:link {
+    color: #065cd6;
+}
+
+a:hover {
+    color: #ff8800;
+}
+
+a:visited {
+    color: forestgreen;
+}
+
+#signname {
+    color: #5b46b8;
+    text-decoration: none;
+}
