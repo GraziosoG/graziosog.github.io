@@ -27,6 +27,14 @@ table {
     background-color: #b1debd;
 }
 
+#tbnotes {
+    width: 20%;
+}
+
+#tbwebproj {
+    width: 60%;
+}
+
 table caption {
     font-size: 16px;
 }
@@ -45,7 +53,7 @@ a:link {
 }
 
 a:hover {
-    color: #ff8800;
+    background-color: #f2da8a;
 }
 
 a:visited {
