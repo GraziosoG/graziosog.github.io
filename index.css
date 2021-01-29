@@ -1,4 +1,11 @@
-﻿h2 {
+﻿body {
+    background-color: #cfdba7;
+    color: black;
+    font-family: 'Franklin Gothic';
+    font-size: 14px;
+}
+
+h2 {
     padding: 0;
     margin: 0;
     font-size: 30px;
@@ -7,45 +14,46 @@
     color: #4e5250;
 }
 
-body {
-    background-color: #76b09b;
-    color: black;
-    font-family: 'Franklin Gothic';
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e5250;
+}
+
+/*Projects*/
+#proj {
+    margin: auto;
+    width: 90%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.info {
+    overflow: hidden;
     font-size: 14px;
-}
-
-#nav, #sign {
+    width: 100%;
     text-align: center;
-    line-height: 2px;
-    padding: 4px;
-    clear: both;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #b1debd;
+.projImage {
+    height: 250px;
+    width: 350px;
+    object-fit: fill;
 }
 
-#tbnotes {
-    width: 20%;
-}
-
-#tbwebproj {
-    width: 60%;
-}
-
-table caption {
+.projName {
     font-size: 16px;
-}
-
-td, th {
-    text-align: center;
-    height: 24px;
-    color: #102b47;
-    padding: 6px;
-    border: 1px solid black;
-    border-collapse: collapse;
 }
 
 a:link {
@@ -58,6 +66,40 @@ a:hover {
 
 a:visited {
     color: forestgreen;
+}
+
+/*Table Notes*/
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a8c466;
+}
+
+#tbnotes {
+    width: 20%;
+}
+
+table caption {
+    font-size: 16px;
+}
+
+td, th {
+    text-align: center;
+    height: 20px;
+    color: #102b47;
+    padding: 6px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*Signature*/
+
+#nav, #sign {
+    text-align: center;
+    line-height: 2px;
+    padding: 4px;
+    clear: both;
 }
 
 #signname {

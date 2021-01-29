@@ -1,5 +1,5 @@
 body {
-    background-color: #c5c99f;
+    background-color: #bda9de;
     color: white;
     font-family: "Lucida Console";
     margin: 0 auto;
@@ -21,10 +21,11 @@ h2 {
 }
 
 #button1, #button2 {
-    background-color: #48661f;
-    color: #c98530;
+    background-color: #9861f2;
+    color: #391e66;
     font-size: 1em;
     font-style: italic;
+    font-weight: bold;
 }
 
 #slide {

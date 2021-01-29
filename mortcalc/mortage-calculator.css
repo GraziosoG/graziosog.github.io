@@ -1,5 +1,5 @@
 body {
-    background-color: #d1f786;
+    background: repeating-linear-gradient( to right,#f6ba52,#f6ba52 30px,#ffd180 30px,#ffd180 60px );
     color: black;
     font-family: 'Franklin Gothic';
     margin: 16pt;
@@ -12,7 +12,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-    color: darkslategrey;
+    color: #6e5323;
 }
 
 #left {
@@ -39,12 +39,14 @@ a:hover {
     padding-left: 4em;
     line-height: 20px;
 }
+
 table tr td {
-    color: #455c17;
+    color: #453517;
 }
 
 #submit, #reset {
-    margin-top: 2em;
-    background-color: #233302;
-    color: #b2f763;
+    background-color: #b57602;
+    color: #f5d190;
+    font-weight: 700;
+    margin-top: 8px;
 }
